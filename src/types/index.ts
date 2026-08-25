@@ -66,4 +66,3 @@ export interface ApiResponse<T> {
   total_pages: number;
   total_results: number;
 }
-const response: ApiResponse<Movie> = await fetchMovies();
