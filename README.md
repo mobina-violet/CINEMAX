@@ -7,6 +7,9 @@ A modern, animated movie discovery web app built with **React 19** and **TypeScr
 ![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind-v4-06B6D4?logo=tailwindcss&logoColor=white)
 
+## 🎬 Live Demo
+[cinemax-projects.netlify.app](https://cinemax-projects.netlify.app/)
+
 
 ## Preview
 <div align="center">
@@ -14,6 +17,8 @@ A modern, animated movie discovery web app built with **React 19** and **TypeScr
 <img src="./public/cinemax2.png" alt="Cinemax Movie Details" width="620" />
 <img src="./public/cinemax3.png" alt="Cinemax Watchlist" width="620" />
 </div>
+
+
 
 ---
 
