@@ -4,7 +4,7 @@ import type { ApiResponse, Movie } from "../types";
 import type { AxiosResponse } from "axios";
 //ایجاد instance از axios
 const api = axios.create({
-  baseURL: '/api',  // ← به جای https://api.themoviedb.org/3
+  baseURL: import.meta.env.DEV ? "/api" : import.meta.env.VITE_TMDB_BASE_URL,
   params: {
     api_key: import.meta.env.VITE_TMDB_API_KEY,
     language: "en-US",
